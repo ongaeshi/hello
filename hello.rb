@@ -1,3 +1,5 @@
 require "hello"
 
-puts "Hello, world!"
+url = "https://www.ruby-lang.org"
+Launchy.open(url)
+puts "Hello, #{url}"
